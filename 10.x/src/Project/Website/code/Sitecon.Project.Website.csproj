@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Sitecon.Project.Website</RootNamespace>
+    <AssemblyName>Sitecon.Project.Website</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="App_Config\Include\Project\Sitecon.Project.Website\SiteDefinition.config" />
+  </ItemGroup>
+</Project>
